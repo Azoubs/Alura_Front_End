@@ -1,0 +1,51 @@
+header {
+	background: #bbb;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.navegacao {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+.navegacao ul li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+.navegacao a {
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.navegacao a:hover {
+	color: #c78c19;
+	text-decoration: underline;
+}
+
+footer {
+	text-align: center;
+	background: url("../img/bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #fff;
+	font-size: 13px;
+	margin: 20px 0 0;
+}

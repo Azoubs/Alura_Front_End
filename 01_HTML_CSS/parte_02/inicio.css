@@ -1,0 +1,75 @@
+#banner {
+	width: 100%;
+}
+
+.principal {
+	background: #ccc;
+	padding: 30px;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+}
+
+.titulo-centralizado {
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+p {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#missao {
+	font-size: 20px;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em strong {
+	color: #f00;
+}
+
+.itens {
+	font-style: italic;
+}
+
+.beneficios {
+	background: #fff;
+	padding: 20px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.beneficios .titulo-centralizado {
+	font-size: 1.3em;
+}
+
+.ul-beneficios {
+	display: inline-block;
+	/* O display inline alinha pelo bottom, por isso a propriedade abaixo */
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+	list-style: disc;
+	/*list-style: cjk-ideographic;
+	list-style: cjk-earthly-branch;
+	list-style: cjk-heavenly-stem;*/
+}
+
+.ul-beneficios li {
+	padding: 6px;
+}
+
+.imagembeneficios {
+	width: 50%;
+}
